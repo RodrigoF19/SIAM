@@ -16,7 +16,7 @@ module BATCHARGERpowerfixed_64_tb;
    parameter tolerance = 1.0e-3; 
 
    // ============================================================
-   //  DUT SIGNALS (analog signals are 64-bit IEEE754 encoded)
+   //  DUT SIGNALS 
    // ============================================================
    wire [63:0] iforcedbat;
    wire [63:0] vbatcurr;
